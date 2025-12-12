@@ -59,8 +59,9 @@ button:active {
 }
 
 #side-menu {
-  height: 100%;
-  width: 100px;
+  display: none !important;
+  height: 0px !important;
+  width: 0px !important;
   position: fixed;
   left: 0px;
   top: 0px;
@@ -73,8 +74,10 @@ button:active {
 }
 
 #top-menu {
-  height: 80px;
-  left: 111px;
+  display: none !important;
+  height: 0px !important;
+  width: 0px !important;
+  left: 0px !important;
   top: 0px;
   right: 0px;
   position: fixed;
